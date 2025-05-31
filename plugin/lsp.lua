@@ -14,3 +14,4 @@ vim.lsp.config('*', {
 })
 
 vim.lsp.enable('luals')
+vim.lsp.enable('bashls')
