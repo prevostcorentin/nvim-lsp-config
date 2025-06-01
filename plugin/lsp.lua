@@ -13,5 +13,7 @@ vim.lsp.config('*', {
   }
 })
 
-vim.lsp.enable('luals')
-vim.lsp.enable('bashls')
+vim.lsp.enable('lua')
+vim.lsp.enable('bash')
+vim.lsp.enable('golang')
+vim.lsp.enable('csharp')
