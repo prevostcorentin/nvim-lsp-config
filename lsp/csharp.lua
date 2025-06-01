@@ -1,3 +1,5 @@
 return {
-    cmd = "dotnet /usr/local/lib/omnisharp-roslyn/OmniSharp.dll"
+    cmd = { 'csharp-ls' },
+    filetypes = { 'cs' },
+    root_markers = { '*.sln' }
 }
