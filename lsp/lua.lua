@@ -6,7 +6,7 @@ return {
     settings = {
         Lua = {
             workspace = {
-                library = { xos.lua.runtime_path },
+                library = { xos.lua.runtime_path() },
             },
             runtime = {
                 version = 'LuaJIT',

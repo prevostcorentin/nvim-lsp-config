@@ -19,6 +19,7 @@ vim.lsp.enable('golang')
 vim.lsp.enable('groovy')
 vim.lsp.enable('csharp')
 vim.lsp.enable('hcl')
+vim.lsp.enable('vim')
 
 vim.api.nvim_create_autocmd('LspAttach', { 
     group = vim.api.nvim_create_augroup('my.lsp',{}),
